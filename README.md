@@ -2,7 +2,7 @@
 ## Demo 🎸
 
 ## Installation 💿
-![2022-05-26 23-44-44](https://user-images.githubusercontent.com/63909127/170585571-5be72582-1685-4d13-b7d9-fcdf024b61b1.gif)
+
 
 1. Clone the Repository:
 
