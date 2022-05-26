@@ -13,7 +13,7 @@ CLIENT_SECRET = ""  # And client secret
 REDIRECT_URI = "http://127.0.0.1/callback"  # If you follow my tutorial you can leave this
 
 TRUNCATE = 90  # Select the amount of letters to be shown.
-DELAY = 0.8  # Set delay of script (Automatically subtracts Spotify's API response time)
+DELAY = 0.5  # Set delay of script (Automatically subtracts Spotify's API response time)
 
 # ( You can probably leave this things )
 LYRICS_API = "https://api.textyl.co/api/lyrics?q="

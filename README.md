@@ -1,5 +1,10 @@
 # Polybar Lyrics 🎶
-## Demo 🎸
+
+This is what it looks like in my Polybar config!
+
+![image](https://user-images.githubusercontent.com/63909127/170585863-2dd2e349-5616-46d1-91a8-df5a7efcd170.png)
+
+Demonstrated using lyrics from Without me - Eminem.
 
 ## Installation 💿
 
