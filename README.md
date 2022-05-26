@@ -38,9 +38,9 @@ Demonstrated using lyrics from Without me - Eminem.
     Paste this in your polybar-config
     ```ini
     [module/polybar-lyrics]
-    type=custom/script
+    type = custom/script
     exec = python3 <path to polybar-lyrics.py>
-    interval=0.1
+    interval = 0
     ```
 
 5. Initial start:
