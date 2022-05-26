@@ -1,11 +1,14 @@
-# Polybar Lyrics
-## Installation
+# Polybar Lyrics 🎶
+## Demo 🎸
+
+## Installation 💿
 
 1. Clone the Repository:
-```bash
-git clone https://github.com/Jonathan357611/polybar-lyrics
-cd polybar-lyrics
-```
+
+    ```bash
+    git clone https://github.com/Jonathan357611/polybar-lyrics
+    cd polybar-lyrics
+    ```
 2. Get spotify credentials:
 
     Go to the [Spotify Dashboard](https://developer.spotify.com/dashboard/applications)
@@ -44,4 +47,11 @@ cd polybar-lyrics
     ```
     It should redirect you to a login screen. Login.
     The script should ask you for the URL your beeing redirect to after the Login. Paste it there and press enter.
-    
+
+    You should have a file called .cache-\<username\> (Use ```ls -a```) . Paste that to your home directory (~)
+
+6. Done
+
+    Everything should now be setup, just add the module to your bar and your ready to go!
+
+    If somethings not working just hit me up and I'll try my best helping you :D
