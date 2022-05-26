@@ -62,7 +62,18 @@ Demonstrated using lyrics from Without me - Eminem.
 
     If somethings not working just hit me up and I'll try my best helping you :D
 
-## How it works ⚙️
+## Advanced options ⚙️
+
+- REDIRECT_URI: Default=http://127.0.0.1/callback Set an own redirect URI (Unnecessary)
+
+- TRUNCATE: Default=90 Amount of letters to show before cutting of
+
+- DELAY: Default=0.8 Delay in seconds.
+
+- LYRICS_API: Default=https://api.textyl.co/api/lyrics?q= Lyrics API to use. If you change this, you maybe need to rewrite the lyrics parsing script due to different API-answers!
+
+- TEMP_FILE: Default=/tmp/.song.json File to temporarly store the songs lyrics.
+
 
 
 ## Currently working on 🔨
