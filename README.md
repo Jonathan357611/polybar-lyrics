@@ -15,7 +15,7 @@ cd polybar-lyrics
 
 3. Set credentials:
 
-    After step 2, paste the Client ID, Client Secret and your spotify username in polybar-lyrics.py.
+    After step 2, paste the Client ID, Client Secret and your spotify username in polybar-lyrics.py, you should get these informations on the App Dashboard.
     Line 10-12 should look something like this:
     ```python
     USERNAME = "John_Doe"  # Put your Spotify username here
@@ -23,3 +23,25 @@ cd polybar-lyrics
     CLIENT_SECRET = "8345897s78734587ds7h87fgh7096"  # And client secret
     ```
     of course filled in with your credentials ;)
+
+4. Polybar Config:
+    
+    Paste this in your polybar-config
+    ```ini
+    [module/polybar-lyrics]
+    type=custom/script
+    exec = python3 <path to polybar-lyrics.py>
+    interval=0.1
+    ```
+
+5. Initial start:
+
+    **IMPORTANT:**
+    You should run the script yourself as an initial setup.
+    Execute it like this:
+    ```bash
+    python3 polybar-lyrics.py
+    ```
+    It should redirect you to a login screen. Login.
+    The script should ask you for the URL your beeing redirect to after the Login. Paste it there and press enter.
+    
