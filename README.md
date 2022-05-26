@@ -35,7 +35,8 @@ Demonstrated using lyrics from Without me - Eminem.
 
 4. Polybar Config:
     
-    Paste this in your polybar-config
+    Paste this in your polybar-config.
+    
     It's important to set the interval to 0 as there already is a wait in polybar-lyrics.py! 
     ```ini
     [module/polybar-lyrics]
