@@ -1,8 +1,9 @@
 # Polybar Lyrics 🎶
 ## Demo 🎸
 
-## Installation 💿
 ![image](https://user-images.githubusercontent.com/63909127/170585863-2dd2e349-5616-46d1-91a8-df5a7efcd170.png)
+
+## Installation 💿
 
 
 1. Clone the Repository:
