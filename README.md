@@ -61,3 +61,18 @@ Demonstrated using lyrics from Without me - Eminem.
     Everything should now be setup, just add the module to your bar and your ready to go!
 
     If somethings not working just hit me up and I'll try my best helping you :D
+
+## How it works ⚙️
+
+
+## Currently working on 🔨
+
+This is in early stage of testing.
+Currently the script is pulling song status from Spotify's API directly.
+It would probably be better to do this over something like DBUS.
+The only problem I encountered using Dbus was that I could not fetch the song progress.
+
+_Theoretically_ I could measure elapsed time with checking if the song has paused. This method could face problems when using multiple devices.
+
+I am thinking about fetching the spotify progress status over the API every few (10?) seconds instead of every. single. one. And check if the song has been paused in between using the dbus approach.
+The Pro's would be fewer API calls and a way more synchronised script.
