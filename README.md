@@ -89,3 +89,9 @@ _Theoretically_ I could measure elapsed time with checking if the song has pause
 
 I am thinking about fetching the spotify progress status over the API every few (10?) seconds instead of every. single. one. And check if the song has been paused in between using the dbus approach.
 The Pro's would be fewer API calls and a way more synchronised script.
+
+
+## Support me
+
+If you like my program, please consider donating some ETH!
+```0x1f2C6e62622051b3F4d4a3545B17018704630c35```
