@@ -32,9 +32,9 @@ My program currently uses a free and not-so-good lyrics api (api.textyl.co) whic
     After step 2, paste the Client ID, Client Secret and your spotify username in polybar-lyrics.py, you should get these informations on the App Dashboard.
     Line 10-12 should look something like this:
     ```python
-    USERNAME = "John_Doe"  # Put your Spotify username here
-    CLIEND_ID = "3450345073645sdfsdf0763"  # Here your Client ID
-    CLIENT_SECRET = "8345897s78734587ds7h87fgh7096"  # And client secret
+    USERNAME = ""  # Put your Spotify username here
+    CLIEND_ID = ""  # Here your Client ID
+    CLIENT_SECRET = ""  # And client secret
     ```
     of course filled in with your credentials ;)
 
