@@ -9,7 +9,7 @@ Demonstrated using lyrics from Without me - Eminem.
 ### IMPORTANT
 
 **PLEASE READ**
-My program currently uses a free and not-so-good lyrics api (api.textyl.co) which experiences **lots** of downtime, so sadly it isnt uncommon that you wont see any lyrics in your polybar :(
+My program currently uses a free and not-so-good lyrics api (api.textyl.co) which can have some downtime, so sadly it isnt uncommon that you wont see any lyrics in your polybar :(
 
 ## Installation 💿
 
